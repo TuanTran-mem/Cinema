@@ -104,6 +104,17 @@ const routes = [
         beforeEnter: checkAdmin
     },
     {
+        path: "/admin/quen-mat-khau",
+        component: () => import("../components/Admin/QuenMatKhau/index.vue"),
+        meta: { layout: "blank" },
+    },
+    {
+        path: "/admin/dat-lai-mat-khau/:hash_reset",
+        component: () => import("../components/Admin/DatLaiMatKhau/index.vue"),
+        meta: { layout: "blank" },
+        props: true,
+    },
+    {
         path: "/admin/phong-chieu",
         component: () => import("../components/Admin/PhongChieu/index.vue"),
         beforeEnter: checkAdmin,

@@ -98,7 +98,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="mb-3 text-end">
-                                                    <router-link to="/client/quen-mat-khau">
+                                                    <router-link to="/admin/quen-mat-khau">
                                                         Quên mật khẩu
                                                     </router-link>
                                                 </div>
